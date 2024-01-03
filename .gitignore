@@ -1,26 +1,29 @@
 # dependencies
 location-project/node_modules/
 location-projec-back/node_modules/
-/.pnp
-.pnp.js
+location-projec-back/package-lock.json
+location-project/package-lock.json
 
-#environment
+location-project/.pnp
+location-project/.pnp.js
+
+# environment
 location-project/.env
-
+location-projec-back/nodemon.json
 
 # testing
-/coverage
+location-project/coverage
 
 # production
-/build
+location-project/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+location-project/.DS_Store
+location-project/.env.local
+location-project/.env.development.local
+location-project/.env.test.local
+location-project/.env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+location-project/npm-debug.log*
+location-project/yarn-debug.log*
+location-project/yarn-error.log*

@@ -1,6 +1,6 @@
 # dependencies
-location-project/node_modules
-location-projec-back/node_modules
+location-project/node_modules/
+location-projec-back/node_modules/
 /.pnp
 .pnp.js
 

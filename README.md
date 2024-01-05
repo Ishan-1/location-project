@@ -35,3 +35,22 @@ The backend is designed using Node and Express.js for a backend API to which req
 - bcryptjs(for hashing user passwords before storage)
 - uuid(for generating unique filename for storing image uploads)
 - multer(for storage of user and places' image uploads)
+
+### How to run
+Requirements: Node.js and npm should be installed on the system
+Steps for setup:
+- Download/clone the repository 
+- run `npm install` in backend and frontend directory to automatically install required dependencies
+- now create environment files for both backend and frontend:
+i) For frontend(in .env): `REACT_APP_BACKEND_URL = http://localhost:5000`
+ii) For backend(in nodmeon.json): 
+`{
+    "env":{
+        "DB_USER": "username",
+        "DB_PASSWORD":"pass",
+        "DB_NAME": "dbname",
+        "LOCATION_API_KEY": "LocationIQ API Key",
+        "JWT_KEY": "your_key"
+    }
+}`
+- Run `npm start` in backend and frontend.
